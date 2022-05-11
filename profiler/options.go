@@ -20,11 +20,11 @@ import (
 	"time"
 	"unicode"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/osinfo"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/version"
+	"github.com/liquidm/dd-trace-go/internal"
+	"github.com/liquidm/dd-trace-go/internal/globalconfig"
+	"github.com/liquidm/dd-trace-go/internal/log"
+	"github.com/liquidm/dd-trace-go/internal/osinfo"
+	"github.com/liquidm/dd-trace-go/internal/version"
 
 	"github.com/DataDog/datadog-go/v5/statsd"
 )

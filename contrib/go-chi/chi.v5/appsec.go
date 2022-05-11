@@ -8,8 +8,8 @@ package chi
 import (
 	"net/http"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec/dyngo/instrumentation/httpsec"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/internal/appsec/dyngo/instrumentation/httpsec"
 
 	"github.com/go-chi/chi/v5"
 )

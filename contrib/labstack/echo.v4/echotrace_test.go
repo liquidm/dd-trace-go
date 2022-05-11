@@ -13,11 +13,11 @@ import (
 	"strings"
 	"testing"
 
-	pappsec "gopkg.in/DataDog/dd-trace-go.v1/appsec"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/appsec"
+	pappsec "github.com/liquidm/dd-trace-go/appsec"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/mocktracer"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/internal/appsec"
 
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"

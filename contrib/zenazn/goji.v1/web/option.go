@@ -8,10 +8,10 @@ package web
 import (
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/internal"
+	"github.com/liquidm/dd-trace-go/internal/globalconfig"
 )
 
 type config struct {
