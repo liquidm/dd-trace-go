@@ -1,4 +1,4 @@
-module github.com/liquidm/dd-trace-go.v1
+module github.com/liquidm/dd-trace-go
 
 go 1.17
 
