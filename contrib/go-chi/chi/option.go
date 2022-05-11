@@ -9,9 +9,9 @@ import (
 	"math"
 	"net/http"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig"
+	"github.com/liquidm/dd-trace-go.v1/ddtrace"
+	"github.com/liquidm/dd-trace-go.v1/internal"
+	"github.com/liquidm/dd-trace-go.v1/internal/globalconfig"
 )
 
 type config struct {

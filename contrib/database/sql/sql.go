@@ -25,8 +25,8 @@ import (
 	"reflect"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/database/sql/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/liquidm/dd-trace-go.v1/contrib/database/sql/internal"
+	"github.com/liquidm/dd-trace-go.v1/internal/log"
 )
 
 // registeredDrivers holds a registry of all drivers registered via the sqltrace package.

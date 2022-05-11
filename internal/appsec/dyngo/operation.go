@@ -26,7 +26,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/liquidm/dd-trace-go.v1/internal/log"
 )
 
 // Operation interface type allowing to register event listeners to the
