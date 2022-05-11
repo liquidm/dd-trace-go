@@ -1,4 +1,4 @@
-module gopkg.in/DataDog/dd-trace-go.v1
+module github.com/liquidm/dd-trace-go.v1
 
 go 1.16
 
