@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/internal/log"
+	"github.com/liquidm/dd-trace-go/internal/log"
 )
 
 type traceWriter interface {

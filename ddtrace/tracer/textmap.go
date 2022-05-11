@@ -13,10 +13,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/internal/log"
-	"github.com/liquidm/dd-trace-go.v1/internal/samplernames"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/internal/log"
+	"github.com/liquidm/dd-trace-go/internal/samplernames"
 )
 
 // HTTPHeadersCarrier wraps an http.Header as a TextMapWriter and TextMapReader, allowing

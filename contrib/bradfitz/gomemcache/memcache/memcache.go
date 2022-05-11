@@ -9,7 +9,7 @@
 // the same methods, so should be seamless for existing applications. It also
 // has an additional `WithContext` method which can be used to connect a span
 // to an existing trace.
-package memcache // import "github.com/liquidm/dd-trace-go.v1/contrib/bradfitz/gomemcache/memcache"
+package memcache // import "github.com/liquidm/dd-trace-go/contrib/bradfitz/gomemcache/memcache"
 
 import (
 	"context"
@@ -17,10 +17,10 @@ import (
 
 	"github.com/bradfitz/gomemcache/memcache"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/liquidm/dd-trace-go.v1/internal/log"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/internal/log"
 )
 
 // WrapClient wraps a memcache.Client so that all requests are traced using the

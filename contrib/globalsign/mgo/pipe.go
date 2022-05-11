@@ -8,7 +8,7 @@ package mgo
 import (
 	"github.com/globalsign/mgo"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
 )
 
 // Pipe is an mgo.Pipe instance along with the data necessary for tracing.

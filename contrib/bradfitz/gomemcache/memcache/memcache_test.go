@@ -17,10 +17,10 @@ import (
 	"github.com/bradfitz/gomemcache/memcache"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/mocktracer"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/liquidm/dd-trace-go.v1/internal/globalconfig"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/mocktracer"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/internal/globalconfig"
 )
 
 func TestMemcache(t *testing.T) {

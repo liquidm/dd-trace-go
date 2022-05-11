@@ -6,18 +6,18 @@
 //go:generate protoc -I . fixtures_test.proto --go_out=plugins=grpc:.
 
 // Package grpc provides functions to trace the google.golang.org/grpc package v1.2.
-package grpc // import "github.com/liquidm/dd-trace-go.v1/contrib/google.golang.org/grpc.v12"
+package grpc // import "github.com/liquidm/dd-trace-go/contrib/google.golang.org/grpc.v12"
 
 import (
 	"math"
 	"net"
 
-	"github.com/liquidm/dd-trace-go.v1/contrib/google.golang.org/internal/grpcutil"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/liquidm/dd-trace-go.v1/internal/globalconfig"
-	"github.com/liquidm/dd-trace-go.v1/internal/log"
+	"github.com/liquidm/dd-trace-go/contrib/google.golang.org/internal/grpcutil"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/internal/globalconfig"
+	"github.com/liquidm/dd-trace-go/internal/log"
 
 	context "golang.org/x/net/context"
 	"google.golang.org/grpc"

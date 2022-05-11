@@ -13,9 +13,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/internal/samplernames"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/internal/samplernames"
 )
 
 func TestSetSecurityEventTags(t *testing.T) {

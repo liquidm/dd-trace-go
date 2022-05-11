@@ -14,12 +14,12 @@ import (
 	"strings"
 	"testing"
 
-	pappsec "github.com/liquidm/dd-trace-go.v1/appsec"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/mocktracer"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/liquidm/dd-trace-go.v1/internal/appsec"
-	"github.com/liquidm/dd-trace-go.v1/internal/globalconfig"
+	pappsec "github.com/liquidm/dd-trace-go/appsec"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/mocktracer"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/internal/appsec"
+	"github.com/liquidm/dd-trace-go/internal/globalconfig"
 
 	"github.com/go-chi/chi"
 	"github.com/stretchr/testify/assert"

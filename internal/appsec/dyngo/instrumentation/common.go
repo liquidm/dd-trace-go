@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/internal/samplernames"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/internal/samplernames"
 )
 
 // TagsHolder wraps a map holding tags. The purpose of this struct is to be used by composition in an Operation

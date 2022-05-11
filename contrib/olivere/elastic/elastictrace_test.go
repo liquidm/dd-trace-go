@@ -18,9 +18,9 @@ import (
 	elasticv3 "gopkg.in/olivere/elastic.v3"
 	elasticv5 "gopkg.in/olivere/elastic.v5"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/mocktracer"
-	"github.com/liquidm/dd-trace-go.v1/internal/globalconfig"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/mocktracer"
+	"github.com/liquidm/dd-trace-go/internal/globalconfig"
 
 	"testing"
 )

@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/liquidm/dd-trace-go.v1/internal/traceprof"
-	pb "github.com/liquidm/dd-trace-go.v1/internal/traceprof/testapp"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/internal/traceprof"
+	pb "github.com/liquidm/dd-trace-go/internal/traceprof/testapp"
 
 	"github.com/stretchr/testify/require"
 )

@@ -20,7 +20,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/liquidm/dd-trace-go.v1/internal/appsec/dyngo"
+	"github.com/liquidm/dd-trace-go/internal/appsec/dyngo"
 )
 
 // Dummy struct to mimic real-life operation stacks.

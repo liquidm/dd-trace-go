@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/profiler/internal/pprofutils"
+	"github.com/liquidm/dd-trace-go/profiler/internal/pprofutils"
 
 	pprofile "github.com/google/pprof/profile"
 	"github.com/stretchr/testify/assert"

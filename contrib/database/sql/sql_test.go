@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/contrib/internal/sqltest"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/mocktracer"
+	"github.com/liquidm/dd-trace-go/contrib/internal/sqltest"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/mocktracer"
 
 	mssql "github.com/denisenkom/go-mssqldb"
 	"github.com/go-sql-driver/mysql"

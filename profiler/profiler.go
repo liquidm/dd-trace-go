@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/internal"
-	"github.com/liquidm/dd-trace-go.v1/internal/log"
+	"github.com/liquidm/dd-trace-go/internal"
+	"github.com/liquidm/dd-trace-go/internal/log"
 
 	pprofile "github.com/google/pprof/profile"
 )

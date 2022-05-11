@@ -8,7 +8,7 @@ package gorm
 import (
 	"math"
 
-	"github.com/liquidm/dd-trace-go.v1/internal"
+	"github.com/liquidm/dd-trace-go/internal"
 
 	"gopkg.in/jinzhu/gorm.v1"
 )

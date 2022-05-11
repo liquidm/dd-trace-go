@@ -17,9 +17,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/internal"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/internal"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
 )
 
 var _ ddtrace.Tracer = (*mocktracer)(nil)

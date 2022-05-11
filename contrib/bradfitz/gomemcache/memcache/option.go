@@ -8,7 +8,7 @@ package memcache
 import (
 	"math"
 
-	"github.com/liquidm/dd-trace-go.v1/internal"
+	"github.com/liquidm/dd-trace-go/internal"
 )
 
 const (

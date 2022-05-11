@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/internal/globalconfig"
-	"github.com/liquidm/dd-trace-go.v1/internal/traceprof"
+	"github.com/liquidm/dd-trace-go/internal/globalconfig"
+	"github.com/liquidm/dd-trace-go/internal/traceprof"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

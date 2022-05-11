@@ -9,7 +9,7 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/liquidm/dd-trace-go.v1/internal"
+	"github.com/liquidm/dd-trace-go/internal"
 )
 
 type clientConfig struct {

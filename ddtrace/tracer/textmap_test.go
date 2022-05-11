@@ -14,8 +14,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/internal"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/internal"
 
 	"github.com/stretchr/testify/assert"
 )

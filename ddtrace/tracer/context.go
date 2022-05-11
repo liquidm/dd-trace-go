@@ -8,8 +8,8 @@ package tracer
 import (
 	"context"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/internal"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/internal"
 )
 
 type contextKey struct{}

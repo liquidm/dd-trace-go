@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/internal/version"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/internal/version"
 )
 
 // Level specifies the logging level that the log package prints at.

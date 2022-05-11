@@ -9,8 +9,8 @@ import (
 
 	"github.com/urfave/negroni"
 
-	negronitrace "github.com/liquidm/dd-trace-go.v1/contrib/urfave/negroni"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
+	negronitrace "github.com/liquidm/dd-trace-go/contrib/urfave/negroni"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {

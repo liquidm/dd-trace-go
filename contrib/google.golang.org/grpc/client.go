@@ -8,11 +8,11 @@ package grpc
 import (
 	"net"
 
-	"github.com/liquidm/dd-trace-go.v1/contrib/google.golang.org/internal/grpcutil"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/liquidm/dd-trace-go.v1/internal/log"
+	"github.com/liquidm/dd-trace-go/contrib/google.golang.org/internal/grpcutil"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/internal/log"
 
 	context "golang.org/x/net/context"
 	"google.golang.org/grpc"

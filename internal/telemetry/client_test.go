@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/internal/telemetry"
+	"github.com/liquidm/dd-trace-go/internal/telemetry"
 )
 
 func TestClient(t *testing.T) {

@@ -19,12 +19,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/internal"
-	maininternal "github.com/liquidm/dd-trace-go.v1/internal"
-	"github.com/liquidm/dd-trace-go.v1/internal/globalconfig"
-	"github.com/liquidm/dd-trace-go.v1/internal/log"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/internal"
+	maininternal "github.com/liquidm/dd-trace-go/internal"
+	"github.com/liquidm/dd-trace-go/internal/globalconfig"
+	"github.com/liquidm/dd-trace-go/internal/log"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/tinylib/msgp/msgp"

@@ -17,7 +17,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/liquidm/dd-trace-go.v1/contrib/internal/lists"
+	"github.com/liquidm/dd-trace-go/contrib/internal/lists"
 )
 
 func main() {

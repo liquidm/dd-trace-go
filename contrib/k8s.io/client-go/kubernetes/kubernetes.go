@@ -4,17 +4,17 @@
 // Copyright 2016 Datadog, Inc.
 
 // Package kubernetes provides functions to trace k8s.io/client-go (https://github.com/kubernetes/client-go).
-package kubernetes // import "github.com/liquidm/dd-trace-go.v1/contrib/k8s.io/client-go/kubernetes"
+package kubernetes // import "github.com/liquidm/dd-trace-go/contrib/k8s.io/client-go/kubernetes"
 
 import (
 	"net/http"
 	"strconv"
 	"strings"
 
-	httptrace "github.com/liquidm/dd-trace-go.v1/contrib/net/http"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/internal/log"
+	httptrace "github.com/liquidm/dd-trace-go/contrib/net/http"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/internal/log"
 )
 
 const (

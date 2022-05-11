@@ -9,9 +9,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/internal"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/internal"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/stretchr/testify/assert"

@@ -9,8 +9,8 @@ import (
 	"context"
 	"math"
 
-	"github.com/liquidm/dd-trace-go.v1/internal"
-	"github.com/liquidm/dd-trace-go.v1/internal/globalconfig"
+	"github.com/liquidm/dd-trace-go/internal"
+	"github.com/liquidm/dd-trace-go/internal/globalconfig"
 )
 
 type config struct {

@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/internal/log"
+	"github.com/liquidm/dd-trace-go/internal/log"
 )
 
 // defaultMetricsReportInterval specifies the interval at which runtime metrics will

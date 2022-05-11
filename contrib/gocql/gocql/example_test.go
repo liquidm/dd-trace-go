@@ -10,9 +10,9 @@ import (
 
 	"github.com/gocql/gocql"
 
-	gocqltrace "github.com/liquidm/dd-trace-go.v1/contrib/gocql/gocql"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
+	gocqltrace "github.com/liquidm/dd-trace-go/contrib/gocql/gocql"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
 )
 
 // To trace Cassandra commands, use our query wrapper WrapQuery.

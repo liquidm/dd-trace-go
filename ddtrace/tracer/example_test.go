@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
 )
 
 // A basic example demonstrating how to start the tracer, as well as how

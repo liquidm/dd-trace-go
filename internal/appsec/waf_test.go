@@ -16,10 +16,10 @@ import (
 	"strings"
 	"testing"
 
-	pAppsec "github.com/liquidm/dd-trace-go.v1/appsec"
-	httptrace "github.com/liquidm/dd-trace-go.v1/contrib/net/http"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/mocktracer"
-	"github.com/liquidm/dd-trace-go.v1/internal/appsec"
+	pAppsec "github.com/liquidm/dd-trace-go/appsec"
+	httptrace "github.com/liquidm/dd-trace-go/contrib/net/http"
+	"github.com/liquidm/dd-trace-go/ddtrace/mocktracer"
+	"github.com/liquidm/dd-trace-go/internal/appsec"
 
 	"github.com/stretchr/testify/require"
 )

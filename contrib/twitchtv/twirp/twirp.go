@@ -5,7 +5,7 @@
 
 // Package twirp provides tracing functions for tracing clients and servers generated
 // by the twirp framework (https://github.com/twitchtv/twirp).
-package twirp // import "github.com/liquidm/dd-trace-go.v1/contrib/twitchtv/twirp"
+package twirp // import "github.com/liquidm/dd-trace-go/contrib/twitchtv/twirp"
 
 import (
 	"context"
@@ -14,9 +14,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
-	"github.com/liquidm/dd-trace-go.v1/internal/log"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/internal/log"
 
 	"github.com/twitchtv/twirp"
 )

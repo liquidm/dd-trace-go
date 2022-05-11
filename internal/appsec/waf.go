@@ -17,13 +17,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/internal/appsec/dyngo"
-	"github.com/liquidm/dd-trace-go.v1/internal/appsec/dyngo/instrumentation/grpcsec"
-	"github.com/liquidm/dd-trace-go.v1/internal/appsec/dyngo/instrumentation/httpsec"
-	"github.com/liquidm/dd-trace-go.v1/internal/appsec/waf"
-	"github.com/liquidm/dd-trace-go.v1/internal/log"
-	"github.com/liquidm/dd-trace-go.v1/internal/samplernames"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/internal/appsec/dyngo"
+	"github.com/liquidm/dd-trace-go/internal/appsec/dyngo/instrumentation/grpcsec"
+	"github.com/liquidm/dd-trace-go/internal/appsec/dyngo/instrumentation/httpsec"
+	"github.com/liquidm/dd-trace-go/internal/appsec/waf"
+	"github.com/liquidm/dd-trace-go/internal/log"
+	"github.com/liquidm/dd-trace-go/internal/samplernames"
 )
 
 const (

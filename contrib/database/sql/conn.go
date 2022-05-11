@@ -3,7 +3,7 @@
 // This product includes software developed at Datadog (https://www.datadoghq.com/).
 // Copyright 2016 Datadog, Inc.
 
-package sql // import "github.com/liquidm/dd-trace-go.v1/contrib/database/sql"
+package sql // import "github.com/liquidm/dd-trace-go/contrib/database/sql"
 
 import (
 	"context"
@@ -12,9 +12,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/liquidm/dd-trace-go.v1/ddtrace"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/liquidm/dd-trace-go/ddtrace"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
 )
 
 var _ driver.Conn = (*tracedConn)(nil)

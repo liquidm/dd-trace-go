@@ -11,9 +11,9 @@ import (
 
 	"github.com/go-redis/redis/v7"
 
-	redistrace "github.com/liquidm/dd-trace-go.v1/contrib/go-redis/redis.v7"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/ext"
-	"github.com/liquidm/dd-trace-go.v1/ddtrace/tracer"
+	redistrace "github.com/liquidm/dd-trace-go/contrib/go-redis/redis.v7"
+	"github.com/liquidm/dd-trace-go/ddtrace/ext"
+	"github.com/liquidm/dd-trace-go/ddtrace/tracer"
 )
 
 // To start tracing Redis, simply create a new client using the library and continue

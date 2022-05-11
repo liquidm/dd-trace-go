@@ -10,7 +10,7 @@ package api
 import (
 	"regexp"
 
-	"github.com/liquidm/dd-trace-go.v1/contrib/google.golang.org/api/internal"
+	"github.com/liquidm/dd-trace-go/contrib/google.golang.org/api/internal"
 )
 
 func init() {
