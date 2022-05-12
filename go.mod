@@ -38,7 +38,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
 	github.com/graph-gophers/graphql-go v1.4.0
-	github.com/hashicorp/consul/api v1.12.0
+	github.com/hashicorp/consul v1.4.5
 	github.com/hashicorp/vault/api v1.5.0
 	github.com/hashicorp/vault/sdk v0.4.1
 	github.com/jackc/pgx/v4 v4.16.1
